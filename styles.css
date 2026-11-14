@@ -148,7 +148,8 @@ a { color: inherit; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(28, 27, 25, 0.18) 0%, rgba(28, 27, 25, 0.15) 40%, rgba(28, 27, 25, 0.72) 100%);
+    linear-gradient(90deg, rgba(28, 27, 25, 0.5) 0%, rgba(28, 27, 25, 0.12) 55%, rgba(28, 27, 25, 0.08) 100%),
+    linear-gradient(180deg, rgba(28, 27, 25, 0.12) 0%, rgba(28, 27, 25, 0.1) 38%, rgba(28, 27, 25, 0.82) 100%);
 }
 .hero-inner {
   width: min(var(--max), calc(100% - 40px));
@@ -175,7 +176,7 @@ a { color: inherit; }
   margin: 0;
   font-size: clamp(16px, 2vw, 20px);
   font-weight: 400;
-  color: rgba(255, 252, 247, 0.86);
+  color: rgba(255, 252, 247, 0.94);
   max-width: 28em;
 }
 .hero-addr {
@@ -184,7 +185,7 @@ a { color: inherit; }
   border-top: 1px solid var(--gold-dim);
   font-size: 14px;
   letter-spacing: 0.04em;
-  color: rgba(255, 252, 247, 0.75);
+  color: rgba(255, 252, 247, 0.88);
 }
 
 /* Sections */
